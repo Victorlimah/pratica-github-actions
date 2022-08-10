@@ -16,4 +16,4 @@ services:
     depends_on:
       - db_postgres_students
     env_file:
-      - .env
+      - .env.test
